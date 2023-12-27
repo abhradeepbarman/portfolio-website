@@ -46,7 +46,8 @@ a {
 }
 
 .logo-text {
-    margin-left: -1.2rem;
+    margin-bottom: 5px;
+    margin-left: -1.1rem;
     font-size: 28px;
 }
 
@@ -123,6 +124,8 @@ a {
     margin-top: 1rem;
     width: 70%;
     font-weight: 500;
+    line-height: 1.5rem;
+    text-align: justify;
 }
 
 .btn-pink {
@@ -161,6 +164,7 @@ a {
 .btn-pink:hover {
     border: solid 3px var(--bgOrange);
     color: black;
+    border: none;
 }
 
 .hero-section-right {
@@ -181,6 +185,7 @@ a {
 
 .user-image img{
     z-index:-9;
+    width: 350px;
 }
 
 @keyframes scaleImage {
@@ -464,15 +469,6 @@ a {
     background-image: url(images/projects/Project2.png);
 }
 
-#project3 {
-    background-image: url(images/projects/Project3.png);
-}
-
-#project4 {
-    margin-left: 120px;
-    background-image: url(images/projects/Project4.png);
-}
-
 /* SKILLS SECTION  */
 
 .skills-container {
@@ -616,7 +612,7 @@ a {
 
 .footer-container {
     width: 1500px;
-    padding: 6rem;
+    padding: 7rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -646,4 +642,11 @@ a {
 .ft-logo i {
     font-size: 2rem;
     margin: 1rem;
+}
+
+.ft-logo:hover {
+    i {
+        color: var(--bgOrange);
+        transition: all 0.4s;
+    }
 }
