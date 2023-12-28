@@ -10,6 +10,8 @@
 
 :root {
     --bgOrange: #e84949;
+    --bg-Blue : #4e45d5;
+    --bg-darkBlue : Rgb(1,41,112);
 }
 
 a {
@@ -91,7 +93,7 @@ a {
     font-size: 7em;
     color: rgb(231, 231, 231);
 
-    bottom: -16%;
+    bottom: -19%;
     left: -5%;
     font-weight: bold;
     transition: all 3s;
@@ -301,6 +303,154 @@ a {
         left: 50%;
     }
 }
+
+
+
+
+/* About Section  */
+.about-section {
+    background-color: rgb(231,231,231);
+}
+
+.about-container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0.3rem 0;
+    height: 100vh;
+}
+
+.about-header {
+    text-align: center;
+    margin: 5rem;
+}
+
+.about-color {
+    color: #4e45d5;
+}
+
+.about-head-icon {
+    margin-right: 3px;
+}
+
+.about-heading {
+    font-size: 1.5rem;
+}
+
+.about-sub-heading {
+    font-weight: 700;
+    margin-top: -1.5rem;
+}
+
+.about-content {
+    font-weight: 400;
+    margin-top: -1rem;
+}
+
+.about-desc {
+    width: 90%;
+    text-align: justify;
+}
+
+.about-heading, .about-sub-heading, .about-desc, .about-points, .about-contact {
+    margin: 1.5rem 0;
+}
+
+.about-btn {
+    margin-top: 1rem;
+}
+
+.about-email, .about-place, .about-college, .about-program {
+    font-weight: 500;
+}
+
+.about-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.about-btn:hover a {
+    color:  #111;
+}
+
+
+/* Education Section  */
+
+.education-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.edu-heading {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.edu-heading span {
+    color: var(--bg-Blue);
+}
+
+.edu-sub-heading {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.education-container {
+    width: 70%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.education-container img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edu-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 5px 5px 15px black;
+    transform: scale(1);
+    transition: all 0.5s;
+    letter-spacing: 0.5px;
+}
+
+.edu-content:hover {
+    transform: scale(1.01);
+}
+
+.edu-right {
+    margin-left: 1rem;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+.edu-content-heading {
+    color:  var(--bg-darkBlue);
+}
+
+.edu-content-status {
+    color: green;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Project Section  */
