@@ -171,7 +171,6 @@ a {
 
 .hero-section-right {
     position: relative;
-
 }
 
 .absolute {
@@ -778,9 +777,10 @@ a {
 .footer-fade-text {
     color: #535C87;
     position: absolute;
-    bottom: 0%;
-    left: 0%;
-    font-size: 4rem;
+    top: 0;
+    left: 0;
+    font-size: 3rem;
+    font-style: italic;
     font-weight: 300;
 }
 
@@ -798,5 +798,232 @@ a {
     i {
         color: var(--bgOrange);
         transition: all 0.4s;
+    }
+}
+
+.ft-last-text {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1300px) {
+
+    /* Navbar & Hero Section  */
+    .container {
+        width: 100%;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    .hero-section-sub-heading {
+        font-size: 26px;
+    }
+
+    .hero-section-left {
+        margin-left: 1.5rem;
+    }
+
+    .hero-section-desc {
+        width: 90%;
+    }
+
+    .faded-text {
+        font-size: 4em;
+        bottom: -5%;
+        left: 0%;
+    }
+
+    /* About Section  */
+    .about-container {
+        width: 100%;
+    }
+
+    .about-header {
+        margin: 3rem;
+    }
+
+    .about-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Education Section  */
+
+    .education-section {
+        height: auto;
+    }
+
+    .education-container {
+        width: 100%;
+    }
+
+    .edu-sub-heading {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+
+    .edu-content {
+        width: 80%;
+        margin-bottom: 1rem;
+        flex-direction: column;
+    }
+
+    .edu-content img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .edu-right {
+        padding: 0.7rem;
+    }
+
+
+
+
+    /* Project Section  */
+    .page-header {
+        padding-top: 30px;
+        color: var(--bgOrange);
+        text-align: center;
+        font-size: 40px;
+      }
+      .project-container {
+        padding: 5px;
+        margin: 10px;
+        gap: 60px;
+      }
+      .project-card {
+        width: 100%;
+        height: 300px;
+      }
+      .project-card {
+        background-size: cover;
+        background-position: center;
+      }
+      .project-content {
+        scale: 0.5;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+      }
+      .project-content-left {
+        left: 0;
+      }
+      .project-heading {
+        font-size: 40px;
+        width: 100%;
+      }
+      .project-sub-heading {
+        width: 100%;
+      }
+      #project2 {
+        margin-left: 0;
+      }
+      #project4 {
+        margin-left: 0;
+      }
+      .project-skill-container {
+        width: 100%;
+      }
+      .project-skill {
+        width: 35px;
+      }
+      .project-card:hover .project-number {
+        display: none;
+      }
+      .project-card:hover .project-content {
+        scale: 0.55;
+      }
+
+
+
+    /* Skills Section  */
+    .skills-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .skill-container-left {
+        width: 100%;
+    }
+
+    .skill-container-right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .skill-fade-text {
+        bottom: -12%;
+        left: 0;
+        z-index: -2;
+    }
+
+    /* Contact Section  */
+    .contact-container {
+        width: 100%;
+        padding: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contact-heading {
+        font-size: 3rem;
+    }
+
+    .contact-sub-heading {
+        font-size: 1.5rem;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .form-btn {
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+    /* Footer Section  */
+    .footer-container {
+        width: 100%;
+        height: auto;
+        padding: 5rem 2rem;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-left a {
+        margin: 5px;
+    }
+
+    .footer-fade-text {
+        font-size: 1.5rem;
+        font-style: italic;
+        top: 0;
+    }
+
+    .ft-logo i {
+       font-size: 1.5rem;
+    }
+
+    .ft-last-text {
+        font-size: 1rem;
     }
 }
