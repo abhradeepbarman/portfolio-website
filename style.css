@@ -915,6 +915,7 @@ a {
         left: 0;
         right: 0;
         top: 0;
+        padding: 2rem 0;
       }
       .project-content-left {
         left: 0;
@@ -949,12 +950,21 @@ a {
 
     /* Skills Section  */
     .skills-container {
+        width: 100%;
         flex-direction: column;
         height: auto;
     }
 
+    .caps {
+        font-size: 3.5rem;
+    }
+
+    .skill-heading {
+        font-size: 2.5rem;
+    }
+
     .skill-container-left {
-        width: 100%;
+        width: 110%;
     }
 
     .skill-container-right {
@@ -962,8 +972,12 @@ a {
         flex-wrap: wrap;
     }
 
+    .skills-logo {
+        width: 3rem;
+    }
+
     .skill-fade-text {
-        bottom: -12%;
+        bottom: -15%;
         left: 0;
         z-index: -2;
     }
@@ -999,7 +1013,7 @@ a {
     .footer-container {
         width: 100%;
         height: auto;
-        padding: 5rem 2rem;
+        padding: 5rem 1rem;
         gap: 15px;
         align-items: center;
     }
