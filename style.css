@@ -844,6 +844,8 @@ a {
     /* About Section  */
     .about-container {
         width: 100%;
+        height: auto;
+        padding: 2rem 0;
     }
 
     .about-header {
